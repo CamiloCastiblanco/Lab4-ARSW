@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Sample implements Filter {
+public class Sample implements FilterPoints {
     @Override
     public Blueprint filterPoints(Blueprint bp) {
         List<Point> points = bp.getPoints();
