@@ -2,6 +2,10 @@
 
 ## Arquitecturas de Software
 
+### Realizado por:
+- Francisco Marquez
+- Camilo Castiblanco
+
 # Componentes y conectores - Parte I.
 
 El ejercicio se debe traer terminado para el siguiente laboratorio (Parte II).
