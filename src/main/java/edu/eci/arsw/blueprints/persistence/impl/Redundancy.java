@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class Redundancy implements Filter {
+public class Redundancy implements FilterPoints {
 
     @Override
     public Blueprint filterPoints(Blueprint bp) {
@@ -34,14 +34,7 @@ public class Redundancy implements Filter {
         }
         return equalsp;
     }
-
-    /*
-    public List<Point> removeRepeatedPoints(List<Point> pstRepeat, List<Point> ptsAll) {
-        List<Point> listNew = new ArrayList<>(ptsAll);
-        listNew.removeAll(pstRepeat);
-        return listNew;
-    }
-    */
+ 
 
     public List<Point> removeRepeatedPoints(List<Point> ptsRepeat, List<Point> ptsAll) {
         List<Point> result = new ArrayList<>(ptsAll);
