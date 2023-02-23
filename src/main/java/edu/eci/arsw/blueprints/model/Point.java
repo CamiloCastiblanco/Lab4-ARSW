@@ -20,7 +20,14 @@ public class Point {
     }
 
     public Point() {
-    }    
+    }   
+   
+    public String toString() {
+        return "Point{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
+    }
     
     public int getX() {
         return x;
